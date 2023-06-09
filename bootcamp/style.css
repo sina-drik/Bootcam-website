@@ -1,0 +1,16 @@
+.showcase{
+    height: 100vh;
+}
+/* p{
+    text-align: justify;
+} */
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+@media (min-width:768px){
+    .news-input{
+        width: 50%;
+    }
+}
